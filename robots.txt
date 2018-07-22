@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /servicos
+Disallow: /portfolio
+Disallow: /behance
+Disallow: /certificados
+Disallow: /marketing
+Disallow: /my
+Sitemap: http://www.robsondesigner.com/sitemap.xml
