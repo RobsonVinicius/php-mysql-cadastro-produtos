@@ -1,4 +1,4 @@
 <?php 
-  $mensagem = "Bem Vindo";
+  $mensagem = "Bem Vindo, testando";
   echo $mensagem;
 ?>
