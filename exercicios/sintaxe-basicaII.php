@@ -34,24 +34,8 @@
     $b = 80;
     // Chamando a função
     $resultado = somaDoisNumeros($a, $b);
-    echo $resultado . "<br><br>";
-
-
-    // Função para somar um array
-    function somaArray($array) {
-      $soma = 0;
-      for($i = 0; $i < sizeof($array); $i++) {
-        $soma = $soma + $array[$i];
-      }
-      return $soma;
-    }
-
-    $sequencia = array(3, 5, 8); 
-    $resultadoarray = somaArray($sequencia);
+    echo $resultado;
     
-    echo $resultadoarray;
-
-
   ?>
 
 </body>
