@@ -8,6 +8,7 @@
 </head>
 <body>
   <?php 
+    // Função soma o Array
     function somaArray($array) {
       $soma = 0;
       for ($i = 0; $i < sizeof($array); $i++) {
@@ -20,6 +21,12 @@
     $resultado = somaArray($numeros);
 
     echo $resultado;
+
+    
+    // Função conta
+    $total = 10 + 20 / 4;
+    echo $total;
+
   ?>
 
   
