@@ -25,7 +25,7 @@
 
     // Conta
     $total = 10 + 20 / 4;
-    echo $total;
+    echo "<br>" . $total;
 
   ?>
 
