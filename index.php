@@ -1,4 +1,8 @@
 <?php 
-  $mensagem = "Bem Vindo, testando";
+  $mensagem = "Bem Vindo, ";
   echo $mensagem;
+
+  $nome = "Robson";
 ?>
+
+Loja do <?= $nome ?>
