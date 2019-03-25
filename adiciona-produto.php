@@ -1,4 +1,4 @@
-<html>
+<?php include("include/cabecalho.php") ?>
 
 <?php
   $nome = $_GET["nome"];  
@@ -6,4 +6,4 @@
 ?>
  <p>Produto <?= $nome; ?>, <?= $preco ?> adicionado com sucesso!</p>
 
-</html>
+<?php include("include/cabecalho.php") ?>

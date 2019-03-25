@@ -1,3 +1,5 @@
+<?php include("include/cabecalho.php") ?>
+
 <?php 
   $mensagem = "Bem Vindo, ";
   echo $mensagem;
@@ -6,3 +8,6 @@
 ?>
 
 Loja do <?= $nome ?>
+
+
+<?php include("include/rodape.php") ?>
