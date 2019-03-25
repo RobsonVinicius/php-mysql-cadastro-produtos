@@ -1,12 +1,12 @@
-<html>
+<?php include("../include/cabecalho.php") ?>
 
   <?php 
-    $message = "Bem Vindo";
+    $message = "<h1>Bem Vindo!!!";
     echo $message . "<br>";
 
     $name = "Robson";
   ?>
 
-  Loja do <?= $name ?>
+  Loja do <?= $name ?> </h1>
   
-</html>
+<?php include("../include/rodape.php") ?>
