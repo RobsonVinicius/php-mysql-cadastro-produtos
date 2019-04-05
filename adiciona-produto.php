@@ -3,7 +3,24 @@
 <?php
   $nome = $_GET["nome"];  
   $preco = $_GET["preco"];
-?>
- <p class="alert-success">Produto <?= $nome; ?>, <?= $preco ?> adicionado com sucesso!</p>
 
-<?php include("include/cabecalho.php") ?>
+  $conexao = mysqli_connect('us-cdbr-iron-east-03.cleardb.net', 'bc71f90f15cc38', 'd8157d1c5f54a36 ', 'heroku_e5f79f34483698a');
+
+  $query = "insert into produtos (nome, preco) values ('{$nome}', {$preco})";
+
+  if(mysqli_query($conexao, $query)) {
+?>
+
+<p class="alert-sucess">Produto <?=$nome;?>, <?=$preco;?> foi adicionado com sucesso!</p>
+
+<?php 
+  } else {
+?>
+
+<p class="alert-danger"> O produto <?=$nome;?>, não foi adicionado</p>
+
+<?php
+  }  
+?>
+
+<?php include("include/rodape.php") ?>
