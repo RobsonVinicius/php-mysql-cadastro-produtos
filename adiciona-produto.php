@@ -4,7 +4,7 @@
     $nome = $_GET["nome"];  
     $preco = $_GET["preco"];
 
-    $conexao = mysqli_connect('http://db4free.net:3306/', 'mikrail', '357357357', 'mikrail');
+    $conexao = mysqli_connect('db4free.net:3306', 'mikrail', '357357357', 'mikrail');
 
     function insereProduto($conexao, $nome, $preco) {
       $query = "insert into produtos (nome, preco) values ('{$nome}', {$preco})";
