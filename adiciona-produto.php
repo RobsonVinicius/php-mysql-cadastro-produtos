@@ -4,7 +4,7 @@
     $nome = $_GET["nome"];  
     $preco = $_GET["preco"];
 
-    $conexao = mysqli_connect('us-cdbr-iron-east-03.cleardb.net', 'bc71f90f15cc38', 'd8157d1c5f54a36 ', 'heroku_e5f79f34483698a');
+    $conexao = mysqli_connect('http://db4free.net:3306/', 'mikrail', '357357357', 'mikrail');
 
     function insereProduto($conexao, $nome, $preco) {
       $query = "insert into produtos (nome, preco) values ('{$nome}', {$preco})";
