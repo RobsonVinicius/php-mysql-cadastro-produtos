@@ -1,6 +1,7 @@
 # PHP e MySQl I
 
-Ferramentas utilizadas:
+### Ferramentas utilizadas:
 
-Plataforma: Heroku 
-Banco de Dados: db4free
+> Plataforma: Heroku 
+
+> Banco de Dados: db4free
