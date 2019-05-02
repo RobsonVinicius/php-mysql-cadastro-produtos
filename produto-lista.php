@@ -1,5 +1,5 @@
-<?php include("cabecalho.php"); ?>
-<?php include("conecta.php"); ?>
+<?php include("include/cabecalho.php"); ?>
+<?php include("include/conecta.php"); ?>
 
 <?php 
   $resultado = mysqli_query($conexao, "select * from produtos");
@@ -8,4 +8,4 @@
   }
 ?>
 
-<?php include("rodape.php");
+<?php include("include/rodape.php");
