@@ -6,6 +6,7 @@ body {
 .nav {
   float: right;
   font-size: 16px;
+  width: max-content;
 }
 
 .principal {
