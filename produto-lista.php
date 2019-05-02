@@ -1,5 +1,5 @@
 <?php include("include/cabecalho.php"); ?>
-<?php include("include/conecta.php"); ?>
+<?php include("include/conexao.php"); ?>
 
 <?php 
   $resultado = mysqli_query($conexao, "select * from produtos");
