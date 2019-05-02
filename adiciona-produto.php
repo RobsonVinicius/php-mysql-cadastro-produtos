@@ -19,9 +19,10 @@
 
   <?php 
     } else {
+      $msg = msqli_error($conexao);
   ?>
 
-  <p class="alert-danger"> O produto <?=$nome;?>, não foi adicionado</p>
+  <p class="alert-danger"> O produto <?=$nome;?>, não foi adicionado: <?= $msg ?> </p>
 
   <?php
     }  
