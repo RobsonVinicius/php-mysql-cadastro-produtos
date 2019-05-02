@@ -3,12 +3,13 @@ body {
   font-size: 20px;
 }
 
+.nav {
+  float: right;
+  font-size: 16px;
+}
+
 .principal {
   padding: 40px 15px;
   text-align: center;
 }
 
-.nav {
-  float: right;
-  font-size: 16px;
-}
