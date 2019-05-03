@@ -4,7 +4,7 @@
   include('include/banco-produto.php'); 
 ?>
 
-<table class="table">
+<table class="table table-striped table-bordered">
   <?php 
     $produtos = listaProdutos($conexao);
     foreach($produtos as $produto) : 
@@ -16,6 +16,7 @@
   <?php
     endforeach
   ?>
+</table>
 
 <?php
   include("include/rodape.php");
