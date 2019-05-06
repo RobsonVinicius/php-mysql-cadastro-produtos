@@ -1,6 +1,6 @@
 <?php 
   include("include/cabecalho.php");
-  include("include/conecta.php");
+  include("include/conexao.php");
   include("include/banco-produto.php");
 
   $id = $_GET['id'];
