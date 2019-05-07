@@ -9,6 +9,10 @@ body {
   width: max-content;
 }
 
+.navbar .container {
+  background-color: #6a737d
+}
+
 .principal {
   padding: 40px 15px;
   text-align: center;
