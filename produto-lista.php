@@ -18,7 +18,7 @@
   <tr>
     <td><?= $produto['nome'] ?></td>
     <td><?= $produto['preco'] ?></td>
-    <td><?= substr($produto['descricao'], 0, 50)  ?></td>
+    <td><?= $produto['descricao']  ?></td>
     <td>
       <a href="remove-produto.php?id=<?=$produto['id']?>" class="text-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover</a>
     </td>
