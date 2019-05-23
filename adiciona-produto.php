@@ -1,7 +1,7 @@
 <?php 
-  include("cabecalho.php");
-  include("conecta.php");
-  include("banco-produto.php");
+  include("include/cabecalho.php"); 
+  include("include/conexao.php"); 
+  include('include/banco-produto.php'); 
      
   $nome = $_GET["nome"];
   $preco = $_GET["preco"];
