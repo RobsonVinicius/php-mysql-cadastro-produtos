@@ -5,11 +5,12 @@
 
   $nome = $_GET["nome"];  
   $preco = $_GET["preco"];
+  $descricao = $_GET["descricao"];
 
-  if(insereProduto($conexao, $nome, $preco)) {
+  if(insereProduto($conexao, $nome, $preco, $descricao)) {
 ?>
 
-  <p class="alert-success">Produto <?=$nome;?>, <?=$preco;?> foi adicionado com sucesso!</p>
+  <p class="alert-success">Produto <?=$nome;?>, <?=$preco;?>, <?=$descricao ?> foi adicionado com sucesso!</p>
 
 <?php 
   } else {

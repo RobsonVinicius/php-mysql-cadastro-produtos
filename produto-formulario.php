@@ -15,6 +15,10 @@
         <td></td>
         <td><input type="submit" value="Cadastrar" /></td>
       </tr>
+      <td>
+        <td>Descrição</td>
+        <td><textarea name="descricao" class="form-control"></textarea></td>
+      </td>
     </table>
   </form>
 

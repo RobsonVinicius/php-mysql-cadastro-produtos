@@ -18,6 +18,7 @@
   <tr>
     <td><?= $produto['nome'] ?></td>
     <td><?= $produto['preco'] ?></td>
+    <td><?= $produto['descricao'] ?></td>
     <td>
       <a href="remove-produto.php?id=<?=$produto['id']?>" class="text-danger">
         <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover
