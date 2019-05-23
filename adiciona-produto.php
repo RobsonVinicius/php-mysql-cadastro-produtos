@@ -10,7 +10,7 @@
   if(insereProduto($conexao, $nome, $preco, $descricao)) {
 ?>
 
-  <p class="alert-success">Produto <?=$nome;?>, <?=$preco;?>, <?=$descricao ?> foi adicionado com sucesso!</p>
+  <p class="alert-success">Produto <?=$nome;?>, <?=$preco;?>, <?= $descricao; ?> foi adicionado com sucesso!</p>
 
 <?php 
   } else {
