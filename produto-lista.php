@@ -18,9 +18,9 @@
   <tr>
     <td><?= $produto['nome'] ?></td>
     <td><?= $produto['preco'] ?></td>
-    <td><?= $produto['descricao']  ?></td>
+    <td><?= substr($produto['descricao'], 0, 15) ?></td>
     <td>
-      <a href="remove-produto.php?id=<?=$produto['id']?>" class="text-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover</a>
+      <form action="remove-produto.php" method="post" class="text-danger"><input type="hidden" name="id" value="<?= $produto['id'] ?>" /><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover</a>
     </td>
   </tr> 
   <?php
