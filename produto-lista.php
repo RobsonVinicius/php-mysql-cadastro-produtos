@@ -20,7 +20,12 @@
     <td><?= $produto['preco'] ?></td>
     <td><?= substr($produto['descricao'], 0, 15) ?></td>
     <td>
-      <a><form action="remove-produto.php" method="post" class="text-danger"><input type="hidden" name="id" value="<?= $produto['id'] ?>" /><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover</a>
+      <form action="remove-produto.php" method="post">
+        <input type="hidden" name="id" value="<?= $produto['id'] ?>" />
+        <a class="text-danger">
+          <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover
+        </a>
+      </form>
     </td>
   </tr> 
   <?php
