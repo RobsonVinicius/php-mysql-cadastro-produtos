@@ -22,9 +22,9 @@
     <td>
       <form action="remove-produto.php" method="post">
         <input type="hidden" name="id" value="<?= $produto['id'] ?>" />
-        <a class="text-danger">
+        <button class="btn btn-danger">
           <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Remover
-        </a>
+        </button>
       </form>
     </td>
   </tr> 
