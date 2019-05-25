@@ -13,7 +13,7 @@
       </tr>
       <tr>
         <td>Descrição</td>
-        <td><textarea class="form-control" rows="3" name="descricao"></textarea></td>
+        <td><textarea class="form-control" name="descricao"></textarea></td>
       </tr>
       <tr>
         <td></td>
