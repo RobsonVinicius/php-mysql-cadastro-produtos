@@ -22,6 +22,7 @@
         <td><textarea class="form-control" name="descricao"></textarea></td>
       </tr>
       <tr>
+        <td>Categorias</td>
         <td>
           <?php
             foreach($categorias as $categoria) :
