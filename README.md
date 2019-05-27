@@ -4,4 +4,4 @@
 
 > Plataforma: Heroku 
 
-> Banco de Dados: db4free
+> Banco de Dados: Remote Mysql
