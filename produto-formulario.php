@@ -24,13 +24,13 @@
       <tr>
         <td>Categorias</td>
         <td>
-          <?php
-            foreach($categorias as $categoria) :
-          ?>
-          <input type="radio" name="categoria_id" value="<?= $categoria['id'] ?>"><?=$categoria['nome'] ?><br>
-          <?php 
-            endforeach
-          ?>
+          <select class="form-control" name="categoria_id">
+            <?php foreach($categorias as $categoria) : ?>
+              <option value="<?= $categoria['id'] ?>">
+                <?= $categoria['nome'] ?><br>
+              </option>
+            <?php endforeach ?>
+          </select>
         </td>
       </tr>
       <tr>
