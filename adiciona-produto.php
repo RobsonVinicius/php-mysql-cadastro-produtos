@@ -11,8 +11,7 @@
     $usado = "true";
   } else {
     $usado = "false";
-  }
-  $usado = $_POST["usado"];
+  }  
 
   if(insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $usado)) { 
 ?>
