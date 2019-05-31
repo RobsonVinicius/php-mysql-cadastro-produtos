@@ -3,7 +3,6 @@
   include("include/conexao.php");
   include("include/banco-categoria.php");
   include("include/banco-produto.php");
-
     
   $id = $_GET['id'];
   $produto = buscaProduto($conexao, $id);
@@ -12,6 +11,7 @@
 ?>
 
   <h1>Alterando Produto</h1>
+
   <form action="altera-produto.php" method="post">
     <table class="table">
       <input type="hidden" name="id" value="<?= $produto['id'] ?>">
@@ -25,7 +25,7 @@
       </tr>
       <tr>
         <td>Descrição</td>
-        <td><textarea class="form-control" name="descricao"></textarea></td>
+        <td><textarea class="form-control" name="descricao"><?= $produto['descricao'] ?></textarea></td>
       </tr>
       <tr>
         <td></td>
