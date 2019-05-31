@@ -1,11 +1,11 @@
 <?php include("include/cabecalho.php") ?>
 <?php 
-  $mensagem = "<h3>Bem Vindo, ";
+  $mensagem = "<h3>Bem ";
   echo $mensagem;
   
-  $nome = "Robson";
+  $msg = "Vindo";
 ?>
 
-Loja do <?= $nome ?> </h3>
+Loja do <?= $msg?> </h3>
 
 <?php include("include/rodape.php") ?>
