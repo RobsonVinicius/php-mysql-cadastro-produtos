@@ -41,7 +41,7 @@
       </tr>
       <tr>
         <td></td>
-        <td><button class="btn btn-primary" type="submit">Alterar</button></td>
+        <td><button class="btn btn-primary btn-lg" type="submit">Alterar</button></td>
       </tr>
     </table>
   </form>
