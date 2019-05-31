@@ -7,7 +7,7 @@
 ?>
 
   <h1>Alterando Produto</h1>
-  <form action="alterar-produto.php" method="post">
+  <form action="altera-produto.php" method="post">
     <table class="table">
       <tr>
         <td>Nome:</td>
@@ -41,7 +41,7 @@
       </tr>
       <tr>
         <td></td>
-        <td><input type="submit" value="Cadastrar"></td>
+        <td><button class="btn btn-primary" type="submit">Alterar</button></td>
       </tr>
     </table>
   </form>
