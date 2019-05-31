@@ -6,6 +6,6 @@
   $msg = "Vindo";
 ?>
 
-Loja do <?= $msg?> </h3>
+<?= $msg?> a loja!</h3>
 
 <?php include("include/rodape.php") ?>
