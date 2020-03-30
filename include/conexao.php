@@ -1,2 +1,2 @@
 <?php
-  $conexao = mysqli_connect('remotemysql.com:3306', 'QzddUsZTgk', 'uRHu6A8KMA', 'QzddUsZTgk');
+  $conexao = mysqli_connect('remotemysql.com:3306', 'hIQGEWP30Q', 'jeCnMRfIrt', 'hIQGEWP30Q');
