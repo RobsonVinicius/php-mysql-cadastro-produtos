@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Minha Loja</title>
 
-  <link href="https://php-mysql-parte1.herokuapp.com/css/bootstrap.css" rel="stylesheet">
-  <link href="https://php-mysql-parte1.herokuapp.com/css/loja.css" rel="stylesheet">  
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="../css/loja.css" rel="stylesheet">  
 </head>
 <body>
 
